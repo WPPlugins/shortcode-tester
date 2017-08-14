@@ -1,0 +1,125 @@
+/* Shortcode Tester */
+div#sct_ix-popup_margin {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100000;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  display: none; }
+
+div.sct_ix-popup {
+  position: fixed;
+  left: 3%;
+  top: 5%;
+  z-index: 100001;
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: white;
+  width: 94%;
+  height: 90vh;
+  overflow: auto;
+  display: none; }
+  div.sct_ix-popup div, div.sct_ix-popup h3, div.sct_ix-popup button, div.sct_ix-popup textarea {
+    box-sizing: border-box; }
+  div.sct_ix-popup div.sct_ix-heading {
+    height: 5vh;
+    margin: 0;
+    overflow: hidden; }
+    div.sct_ix-popup div.sct_ix-heading h3 {
+      padding: 5px 20px;
+      margin: 0;
+      float: left; }
+    div.sct_ix-popup div.sct_ix-heading button#button-mf2tk-shortcode-tester-close {
+      height: 4vh;
+      border: 2px solid black;
+      border-radius: 7px;
+      background-color: #aaa;
+      color: black;
+      font-size: 2vh;
+      float: right;
+      margin: 6px 6px 0 0; }
+      div.sct_ix-popup div.sct_ix-heading button#button-mf2tk-shortcode-tester-close:enabled:hover {
+        background-color: white; }
+      div.sct_ix-popup div.sct_ix-heading button#button-mf2tk-shortcode-tester-close:disabled {
+        color: #777; }
+  div.sct_ix-popup div.sct_ix-instructions {
+    clear: both;
+    height: 8vh;
+    padding-left: 4vw;
+    margin: 0;
+    font-size: 1.75vh;
+    overflow: hidden; }
+  div.sct_ix-popup div.sct_ix-button_bar {
+    height: 8vh;
+    border: 2vh solid #eee;
+    padding: 0 0 0 2vw;
+    margin: 0;
+    background-color: #eee;
+    overflow: hidden; }
+    div.sct_ix-popup div.sct_ix-button_bar button.mf2tk-shortcode-tester-button {
+      height: 4vh;
+      border: 2px solid black;
+      border-radius: 7px;
+      background-color: #aaa;
+      color: black;
+      font-size: 2vh;
+      width: 11em;
+      margin: 0 1em 0 0; }
+      div.sct_ix-popup div.sct_ix-button_bar button.mf2tk-shortcode-tester-button:enabled:hover {
+        background-color: white; }
+      div.sct_ix-popup div.sct_ix-button_bar button.mf2tk-shortcode-tester-button:disabled {
+        color: #777; }
+  div.sct_ix-popup div.sct_ix-shortcode_tester_input_output {
+    height: 69vh;
+    margin: 0;
+    background-color: #eee; }
+    div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half {
+      width: 50%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      float: left; }
+      div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half.sct_ix-this_half_only {
+        width: 96%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto; }
+        div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half.sct_ix-this_half_only div.sct_ix-shortcode_tester_area#mf2tk-shortcode-tester-area-source, div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half.sct_ix-this_half_only div.sct_ix-shortcode_tester_area#mf2tk-shortcode-tester-area-result {
+          width: 100%;
+          margin: 0; }
+      div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half div.sct_ix-shortcode_tester_area {
+        width: 94%;
+        height: 96%;
+        padding: 0;
+        margin: 0;
+        border: 3px solid black; }
+        div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half div.sct_ix-shortcode_tester_area#mf2tk-shortcode-tester-area-source {
+          margin-left: 4%;
+          margin-right: 2%; }
+        div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half div.sct_ix-shortcode_tester_area#mf2tk-shortcode-tester-area-result {
+          margin-left: 2%;
+          margin-right: 4%; }
+        div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half div.sct_ix-shortcode_tester_area h3 {
+          height: 5%;
+          padding: 0 0 0 2vw;
+          margin: 0;
+          color: white;
+          background-color: #888;
+          border-bottom: 1px solid black;
+          font-weight: bold;
+          font-size: 2vh;
+          text-align: left; }
+        div.sct_ix-popup div.sct_ix-shortcode_tester_input_output div.sct_ix-shortcode_tester_half div.sct_ix-shortcode_tester_area textarea {
+          display: block;
+          width: 100%;
+          height: 95%;
+          padding: 10px;
+          margin: 0 auto 0 auto;
+          font-family: monospace; }
+
+/*# sourceMappingURL=mf2tk_macros_admin.css.map */
